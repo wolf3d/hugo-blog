@@ -1,3 +1,5 @@
+os: linux
+dist: xenial
 language: c
 script:
   - ./binaries/hugo # This commands builds your website on travis

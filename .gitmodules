@@ -1,0 +1,6 @@
+[submodule "themes/codex"]
+	path = themes/codex
+	url = https://github.com/jakewies/hugo-theme-codex.git
+[submodule "public"]
+	path = public
+	url = https://github.com/kubilisr/kubilisr.github.io

@@ -1,0 +1,5 @@
+baseURL = "https://kubilisr.github.io/"
+languageCode = "en-us"
+title = "Blog"
+theme = "codex"
+copyright = "© {year}"

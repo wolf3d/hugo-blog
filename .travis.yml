@@ -6,12 +6,14 @@ script:
 before_deploy: cd public && git status
 deploy:
   provider: script
-  script: ./scripts/deploy.sh
+  script:
+  - git add .
+  - git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+  - git remote add origin-pages https://${GTOKEN}@github.com/${GUSER}/${GREPONAME}.git > /dev/null 2>&1
+  - git push --quiet --set-upstream origin-pages master
   skip_cleanup: true
   local_dir: public
-  token: $GTOKEN
   keep_history: true
   target_branch: master
-  repo: $GUSER/$GREPONAME
   on:
     branch: master

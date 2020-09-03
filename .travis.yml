@@ -3,3 +3,15 @@ dist: xenial
 language: c
 script:
   - ./binaries/hugo # This commands builds your website on travis
+before_deploy: cd public && git status
+deploy:
+  provider: script
+  script: ../scripts/deploy.sh
+  skip_cleanup: true
+  local_dir: public
+  token: $GTOKEN
+  keep_history: true
+  target_branch: master
+  repo: $GUSER/$GREPONAME
+  on:
+    branch: master

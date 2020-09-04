@@ -5,7 +5,7 @@ script:
   - ./binaries/hugo # This command builds blog with hugo on travis
 deploy:
   provider: script
-  script: "cd ./public && git config user.name ${GBUSER} && git add . && git commit -m 'Travis deploy' && git push https://${GTOKEN}@github.com/${GUSER}/${GREPONAME}.git master"
+  script: ./scripts/deploy.sh
   skip_cleanup: true
   local_dir: public
   keep_history: true

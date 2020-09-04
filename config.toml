@@ -3,3 +3,34 @@ languageCode = "en-us"
 title = "Blog"
 theme = "codex"
 copyright = "© {year}"
+
+# Optional params
+[params]
+  # Follow the Hugo date/time format reference here: 
+  # https://gohugo.io/functions/format/#gos-layout-string
+  dateFormat = "2006-01-02"
+
+  # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
+  github = "https://github.com/wolf3d"
+  linkedin = "https://www.linkedin.com/in/kubilisr/"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+    
+  # Set to false to disallow raw HTML in markdown files
+  [markup.goldmark.renderer]
+      unsafe = true
+
+# Controls the navigation
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"

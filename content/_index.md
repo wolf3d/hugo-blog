@@ -1,3 +1,4 @@
 ---
-heading: "Hi, welcome to my blog"
+heading: "Hello, I'm Rihards"
+subheading: "Welcome to my blog."
 ---

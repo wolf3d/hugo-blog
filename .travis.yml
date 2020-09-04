@@ -5,11 +5,10 @@ script:
   - ./binaries/hugo # This command builds blog with hugo on travis
 deploy:
   provider: script
-  script: "pwd"
+  script: "cd ./public && git status && git config user.name wolf3d && git add . && git status"
   skip_cleanup: true
   local_dir: public
   keep_history: true
   target_branch: master
   on:
     branch: master
-

@@ -5,7 +5,7 @@ script:
   - ./binaries/hugo # This command builds blog with hugo on travis
 deploy:
   provider: script
-  script: ./deploy.sh
+  script: bash ./deploy.sh
   skip_cleanup: true
   local_dir: public
   keep_history: true

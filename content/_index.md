@@ -1,3 +1,3 @@
 ---
-heading: "Aloha, welcome to my blog"
+heading: "Hei, welcome to my blog"
 ---

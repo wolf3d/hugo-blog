@@ -21,10 +21,14 @@ copyright = "© {year}"
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
       unsafe = true
-
 # Controls the navigation
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog/"
 [[menu.main]]
   identifier = "about"
   name = "about"
   title = "About"
-  url = "/"
+  url = "/about/"

@@ -7,6 +7,7 @@ keywords: [oled,holidays,fun,ssd1306xled,arduino]
 draft: true
 tags: [oled,holidays,fun,ssd1306xled,arduino]
 math: false
+draft: false
 toc: false
 ---
 {{< youtube 6gDxQJrkgGE >}}

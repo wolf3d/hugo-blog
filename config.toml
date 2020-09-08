@@ -13,14 +13,11 @@ copyright = "© {year}"
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
   github = "https://github.com/wolf3d"
   linkedin = "https://www.linkedin.com/in/kubilisr/"
-  instrument = "I am teaching myself to play the banjo."
-  terminal = "I do some programming as a hobby in my free time."
-  languages = "I also enjoy learning new languages. I have attended Norwegian Bøkmål language courses, currently learning Finnish on my own."
-  music = "I listen to music too 😊 It's mostly different kinds of alternative rock, instrumental film scores, synthwave, lately dreampop seems appealing too."
+  languages = "I also spend time learning new foreign languages and I enjoy reading a good book too."
+  music = "I listen to music too 😊 It's mostly different kinds of alternative rock, but I find instrumental film scores appealing too, also I am teaching myself to play the banjo."
   cpu = "I am interested to become a full-time software developer in the foreseeable future."
-  person = "Hi! I'm Rihards Kubilis."
+  person = "Hi! I'm Rihards Kubilis. I do some programming as a hobby in my free time."
   personalpage = "This is my personal website where I share what I am working on. I mostly write about the things I have learned and created."
-  book = "Sometimes I enjoy reading a good book too, recently I have started to read fantasy novels from The Witcher series"
 
 [markup]
   defaultMarkdownHandler = "goldmark"

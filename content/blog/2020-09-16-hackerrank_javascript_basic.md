@@ -1,5 +1,5 @@
 ---
-title: "(Basic) Certificates from Hackerrank"
+title: "Hackerrank's JavaScript (Basic) Skills Certification Test"
 date: 2020-09-15T21:08:00+03:00
 slug: ""
 description: ""

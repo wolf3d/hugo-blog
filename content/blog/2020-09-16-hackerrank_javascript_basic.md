@@ -1,6 +1,6 @@
 ---
 title: "(Basic) Certificates from Hackerrank"
-date: 2020-09-16T21:08:00+03:00
+date: 2020-09-15T21:08:00+03:00
 slug: ""
 description: ""
 keywords: [javascript,hackerrank,certificate,basic]

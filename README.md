@@ -1,2 +1,2 @@
 # hugo-blog
-repository for hugo blog and resources
+repository for hugo blog and resources.
